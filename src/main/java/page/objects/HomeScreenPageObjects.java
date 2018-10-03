@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 public class HomeScreenPageObjects  {
 
 
-    private By plannen = By.id("nl.ns.android.activity:id/plannen");
-    private By addWidget = By.id("nl.ns.android.activity:id/addCard");
+    public By plannen = By.id("nl.ns.android.activity:id/plannen");
+    public By addWidget = By.id("nl.ns.android.activity:id/addCard");
 
 
 }
