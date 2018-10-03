@@ -17,7 +17,7 @@ public class DeviceSetup extends BaseTest {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("platformName", "Android");;
-        capabilities.setCapability("deviceName", "Samsung Galaxy note 9");
+        capabilities.setCapability("deviceName", "Samsung Galaxy note");
         capabilities.setCapability("version", "6.0.1");
         capabilities.setCapability("udid","52033ce659c4b3d7");
         capabilities.setCapability("appPackage", "com.primephonic.app");
